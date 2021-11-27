@@ -1,0 +1,16 @@
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #396eb0;
+  color: white;
+}
+
+#gallery {
+  background-color: #396eb0;
+}
+
+#gallery h2 {
+  color: white;
+}
+section {
+  padding-top: 5rem;
+}
