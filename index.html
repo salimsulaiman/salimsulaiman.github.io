@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio | Salim Sulaiman</title>
   </head>
@@ -32,7 +33,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="asstes/img/mask2.png" alt="Salim Sulaiman" width="200" class="rounded-circle img-thumbnail" />
+      <img src="asstes/img/mask2.png" alt="Salim Sulaiman" width="200" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-duration="700" />
       <h1 class="display-4">Salim Sulaiman</h1>
       <p class="lead">Programmer | Designer | Gamer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -54,10 +55,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-right">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, laudantium obcaecati ab ex similique praesentium quia incidunt excepturi eos aut!</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-left">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus minima distinctio esse amet optio consequuntur rerum numquam, ea eum animi at, vel obcaecati, dolor consectetur.</p>
           </div>
         </div>
@@ -82,7 +83,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
               <img src="asstes/img-gallery/mechanical-keyboard.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,7 +91,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
               <img src="asstes/img-gallery/dualshock4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -98,7 +99,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="400">
               <img src="asstes/img-gallery/mouse.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -168,6 +169,10 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzg4g6Dn7-1F7_Usb7asgQwW6ztGf_oWGCspq8kLWMTkYddU5S4EMlFkP6JIc5OdcIOHQ/exec";
       const form = document.forms["portfolio-contact-form"];
